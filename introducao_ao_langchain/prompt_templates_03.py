@@ -16,7 +16,5 @@ prompt = prompt_template.format(
     texto='Boa tarde.'
 )
 
-print(f'Prompt: {prompt}')
-
 response = model.invoke(prompt)
 print(f'Response: {response}')
